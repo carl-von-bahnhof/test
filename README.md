@@ -36,7 +36,7 @@ $list->getAllValues(); // [1, 5]
 
 ## Further extensions
 Next steps could be to
-* implement following interfaces `\Iterator`, `\ArrayAccess` or `\Serializable
+* implement following interfaces `\Iterator`, `\ArrayAccess` or `\Serializable`
 * implement Doubly linked list
 * refactor SortedLinkedList and introduce `AbstractList` so we can then split `int` and `string` implementation in children classes
 * add additional type to handle ...
